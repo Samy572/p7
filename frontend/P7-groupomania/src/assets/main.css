@@ -1,0 +1,19 @@
+@import './base.css';
+
+#app {
+	
+	font-weight: normal;
+}
+
+a,
+.red {
+	text-decoration: none;
+	color: #fd2d01;
+	transition: 0.4s ease;
+}
+
+@media (hover: hover) {
+	a:hover {
+		background-color: #ffd7d7;
+	}
+}
