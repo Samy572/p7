@@ -10,6 +10,7 @@ const articleSchema = mongoose.Schema({
     image: { type: String},
     likes: { type: Number },
     usersLiked: { type: Array },
+    
 
 });
 // On exporte notre schéma 

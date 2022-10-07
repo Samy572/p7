@@ -54,7 +54,8 @@ app.use('/api/auth', userRoutes);
 app.use('/api/articles', articlesRoutes);
 app.use('/api/commentaires', commentairesRoutes);
 
-
+// Permet l'acces à des ressources static comme les images 
 app.use('/image', express.static(path.join(__dirname, 'image')));
+
 // On exporte notre application pour pouvoir y acceder depuis les autres fichiers de notre projet.
 module.exports = app;

@@ -35,7 +35,7 @@ import Creation from '../components/Creation.vue';
 export default{
     methods: {
         logout() {
-            localStorage.clear();
+            sessionStorage.clear();
             router.push({ path: "/" });
         }
     },

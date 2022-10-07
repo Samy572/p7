@@ -1,6 +1,6 @@
 // Permet d'acceder à notre model Article
 const Article = require('../models/articles');
-// donne acces à des methodes file systeme
+// donne acces à des methodes file systeme utiliser pour supprimer une image avec fs unlink
 const fs = require('fs');
 
 
