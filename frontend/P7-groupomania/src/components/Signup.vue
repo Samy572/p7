@@ -189,7 +189,10 @@ name: 'Signup',
 	height: 100%;
 	width: 0 auto;
 	
+	
 }
+
+
 .btn_signup {
 	cursor: pointer;
 	padding: 7px;

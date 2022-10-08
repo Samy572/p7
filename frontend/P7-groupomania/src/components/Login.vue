@@ -124,11 +124,17 @@ export default{
 
 <style scoped>
 
+
 .sec_login {
 	height: 100%;
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-end;
+	
+}
+
+form{
+	height:auto;
 }
 
 ul {

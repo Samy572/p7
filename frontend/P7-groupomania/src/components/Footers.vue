@@ -14,15 +14,15 @@ export default{
 <style scoped>
 
 footer{
-    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60px;
+    min-height: 50px;
     width:100vw;
     position:absolute;
-    bottom: 0px;
     left: 0;
+    bottom: 0;
+    margin-top: 50px;
     background-color:  #fd2d01;
 }
 
@@ -45,6 +45,12 @@ span{
     }
     span{
         font-size: 14px;
+    }
+}
+
+@media screen and (max-height : 720px) {
+    footer{
+        display: none;
     }
 }
 </style> 
