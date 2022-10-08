@@ -24,10 +24,10 @@
 <script>
 	import Signup from '@/components/Signup.vue'
 	import NavbarForm from '@/components/NavbarForm.vue'
-	import Footers from '../components/Footers.vue';
+	
 	
 		export default{
-			components: { Signup, NavbarForm, Footers }
+			components: { Signup, NavbarForm }
 		}
 	
 	

@@ -24,9 +24,9 @@
 <script>
 	import Login from '@/components/Login.vue';
 	import NavbarForm from '@/components/NavbarForm.vue';
-	import Footers from '../components/Footers.vue'; 
+	
 	export default{
-		components:{Login, NavbarForm, Footers}
+		components:{Login, NavbarForm}
 	}
 </script>
 
