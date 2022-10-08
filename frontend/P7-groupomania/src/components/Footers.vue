@@ -48,9 +48,5 @@ span{
     }
 }
 
-@media screen and (max-height : 720px) {
-    footer{
-        display: none;
-    }
-}
+
 </style> 

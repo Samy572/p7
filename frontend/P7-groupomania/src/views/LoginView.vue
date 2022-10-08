@@ -15,7 +15,7 @@
 		<h2>Bienvenue sur le réseau social<br />de votre entreprise.</h2>
 
 		<Login/>
-		<Footers/>
+		
 	</body>
 </template>
 
